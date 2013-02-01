@@ -19,7 +19,7 @@ public class Thirty_One {
 		//count<String> count = new Linkedcount<String>();
 		search(count,0,0,0,0,0,0,0,0,0);
 		System.out.println(count);
-	}
+	} 
 	
 	private static void search(Set<Solution> count,int sum,int c1,int c2,int c5,int c10,int c20,int c50,int c100,int c200){
 		if(sum == 200){
