@@ -1,4 +1,3 @@
-
 def self.search(target,arr)
 	if arr.length == 1 then 
 		return target == arr[0]
